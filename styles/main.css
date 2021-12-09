@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #7a89c2;
+}
+
+.inputDiv {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+.inputDiv__text {
+  height: 5rem;
+  width: 20rem;
+  margin: 2rem;
+  background-color: #d5daec;
+  word-wrap: break-word;
+}
+.inputDiv__btn {
+  width: 10rem;
+  height: 2rem;
+  border-style: none;
+  border-radius: 25px;
+  background-color: #7a89c2;
+  font-size: 1rem;
+  cursor: pointer;
+}
